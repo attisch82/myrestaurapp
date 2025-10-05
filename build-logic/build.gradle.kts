@@ -21,5 +21,13 @@ gradlePlugin {
             id = "library"
             implementationClass = "com.atesz.build_logic.convention.LibraryConventionPlugin"
         }
+        create("compose"){
+            id = "compose"
+            implementationClass = "com.atesz.build_logic.convention.ComposeConventionPlugin"
+        }
+        create("koin"){
+            id = "koin"
+            implementationClass = "com.atesz.build_logic.convention.KoinConventionPlugin"
+        }
     }
 }
