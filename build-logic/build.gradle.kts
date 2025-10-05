@@ -29,5 +29,9 @@ gradlePlugin {
             id = "koin"
             implementationClass = "com.atesz.build_logic.convention.KoinConventionPlugin"
         }
+        create("dateTime"){
+            id = "dateTime"
+            implementationClass = "com.atesz.build_logic.convention.DateTimeConventionPlugin"
+        }
     }
 }
