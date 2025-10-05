@@ -33,5 +33,9 @@ gradlePlugin {
             id = "dateTime"
             implementationClass = "com.atesz.build_logic.convention.DateTimeConventionPlugin"
         }
+        create("settings"){
+            id = "settings"
+            implementationClass = "com.atesz.build_logic.convention.MultiplatformSettingsConventionPlugin"
+        }
     }
 }
