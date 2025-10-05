@@ -37,5 +37,9 @@ gradlePlugin {
             id = "settings"
             implementationClass = "com.atesz.build_logic.convention.MultiplatformSettingsConventionPlugin"
         }
+        create("navigation"){
+            id = "navigation"
+            implementationClass = "com.atesz.build_logic.convention.NavigationConventionPlugin"
+        }
     }
 }
