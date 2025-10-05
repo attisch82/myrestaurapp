@@ -45,5 +45,9 @@ gradlePlugin {
             id = "serialization"
             implementationClass = "com.atesz.build_logic.convention.SerializationJsonConventionPlugin"
         }
+        create("unitTest"){
+            id = "unitTest"
+            implementationClass = "com.atesz.build_logic.convention.UnitTestConventionPlugin"
+        }
     }
 }
