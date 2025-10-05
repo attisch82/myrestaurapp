@@ -11,7 +11,7 @@ fun VersionCatalog.versions(alias: String) = findVersion(alias).get().requiredVe
 fun VersionCatalog.library(alias: String) = findLibrary(alias).get()
 fun VersionCatalog.bundle(alias: String) = findBundle(alias).get()
 fun Project.getLibs() = extensions.getByType(VersionCatalogsExtension::class.java).named("libs")
-fun Plugin<Project>.logApplyingPlugin() {
-    println("--------------------Applying plugin: ${this::class.simpleName}--------------------")
+fun Plugin<Project>.logAppliedPlugin() {
+    println("********************Plugin: ${this::class.simpleName} applied********************")
 }
 fun Project.getMultiplatformExtension() = extensions.findByType(KotlinMultiplatformExtension::class.java)
