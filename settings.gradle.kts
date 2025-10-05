@@ -33,4 +33,4 @@ plugins {
 }
 
 include(":composeApp")
-include(":build-logic")
+includeBuild("build-logic")
