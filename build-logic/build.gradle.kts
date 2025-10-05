@@ -41,5 +41,9 @@ gradlePlugin {
             id = "navigation"
             implementationClass = "com.atesz.build_logic.convention.NavigationConventionPlugin"
         }
+        create("serialization"){
+            id = "serialization"
+            implementationClass = "com.atesz.build_logic.convention.SerializationJsonConventionPlugin"
+        }
     }
 }
