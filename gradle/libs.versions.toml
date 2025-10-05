@@ -25,6 +25,7 @@ serialization = "1.9.0"
 navigation = "2.9.0"
 kotest = "6.0.3"
 turbine = "1.2.1"
+jetbrainsKotlinJvm = "2.2.0"
 
 [libraries]
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
@@ -79,3 +80,4 @@ date-time = { id = "dateTime" }
 unit-test = { id = "unitTest" }
 navigation = { id = "navigation" }
 serialization = { id = "serialization" }
+jetbrains-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "jetbrainsKotlinJvm" }
