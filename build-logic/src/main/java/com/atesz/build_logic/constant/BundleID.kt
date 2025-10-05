@@ -5,4 +5,5 @@ object BundleID {
     const val SETTINGS = "settings"
     const val NAVIGATION = "navigation"
     const val UNIT_TEST = "unit-test"
+    const val UI = "ui"
 }
